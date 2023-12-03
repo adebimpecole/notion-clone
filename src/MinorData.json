@@ -1,0 +1,98 @@
+{
+  "Navbar": [
+    {
+      "nav1": [
+        {
+          "icon": "./src/assets/books.svg",
+          "big_text": "wikis",
+          "small_text": "centralize your knowledge",
+          "back": "#FBE9E8"
+        },
+        {
+          "icon": "./src/assets/target.svg",
+          "big_text": "projects",
+          "small_text": "for every team or sixe",
+          "back": "#E2ECF3"
+        },
+        {
+          "icon": "./src/assets/doc.svg",
+          "big_text": "docs",
+          "small_text": "simple and powerful",
+          "back": "#FEF6D6"
+        },
+        {
+          "icon": "./src/assets/sprinkle.svg",
+          "big_text": "Notion AI",
+          "small_text": "integrated AI assistant",
+          "back": "#F0E1F9"
+        }
+      ],
+      "nav2": [
+        {
+          "big_text": "template gallery",
+          "small_text": "setups to get you started"
+        },
+        {
+          "big_text": "customer stories",
+          "small_text": "see how teams use Notion"
+        },
+        {
+          "big_text": "connections",
+          "small_text": "connect your tools to notion"
+        }
+      ]
+    },
+    {
+      "nav1": [
+        {
+          "head": "By team size",
+          "icon": "https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/icons/team-size-enterprise.png",
+          "big_text": "enterprise",
+          "small_text": "advanced features for your org"
+        },
+        {
+          "icon": "https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/icons/team-size-small-business.png",
+          "big_text": "small business",
+          "small_text": "run your team on one tool"
+        },
+        {
+          "icon": "https://www.notion.so/cdn-cgi/image/format=auto,width=1920,quality=100/front-static/shared/icons/team-size-personal.png",
+          "big_text": "personal",
+          "small_text": "free for individuals"
+        }
+      ],
+      "nav2": {
+        "head": "By team function",
+        "dets": ["design", "engineering", "product", "managers"]
+      },
+      "nav3": {
+        "head": "notion for",
+        "dets": ["startups", "remote work", "education", "nonprofits"]
+      }
+    }
+  ],
+  "Signin": [
+    {
+      "nav": [
+        {
+          "left": "black",
+          "right": "black",
+          "siginborder": "black",
+          "joincolor": "white",
+          "signincolor": "black",
+          "joinborder": "transparent",
+          "joinbackground": "#0C3763",
+          "the_scroll": 120,
+
+          "leftscroll": "white",
+          "rightscroll": "white",
+          "signinscroll": "white",
+          "joincolorscroll": "white",
+          "joinborderscroll": "transparent",
+          "signincolorscroll": "white",
+          "siginborderscroll": "white"
+        }
+      ]
+    }
+  ]
+}

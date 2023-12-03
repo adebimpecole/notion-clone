@@ -1,0 +1,126 @@
+.nav_bar
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    position: fixed
+    width: 98%
+    padding: 1rem 0
+    margin: 0 1rem
+    background: white
+    z-index: 100
+
+    ul
+        list-style-type: none
+        margin: 0
+        padding: 0
+
+    .left_nav, .right_nav, .each_nav
+        display: flex
+        flex-direction: row
+        align-items: center
+
+    .list_section
+        -webkit-box-shadow: 0px 4px 18px rgb(0 0 0/4%),0px 2.025px 7.84688px rgba(0,0,0,.027),0px 0.8px 2.925px rgb(0 0 0/2%),0px 0.175px 1.04062px rgba(0,0,0,.013)
+        -moz-box-shadow: 0px 4px 18px rgb(0 0 0/4%),0px 2.025px 7.84688px rgba(0,0,0,.027),0px 0.8px 2.925px rgb(0 0 0/2%),0px 0.175px 1.04062px rgba(0,0,0,.013)
+        box-shadow: 0px 4px 18px rgb(0 0 0/4%),0px 2.025px 7.84688px rgba(0,0,0,.027),0px 0.8px 2.925px rgb(0 0 0/2%),0px 0.175px 1.04062px rgba(0,0,0,.013)
+        -webkit-border-radius: 0.3125rem
+        -moz-border-radius: 0.3125rem
+        border-radius: 0.3125rem
+        background: white
+        position: absolute
+        top: 3rem
+        text-align: left
+        z-index: 900
+        opacity: 1
+        flex-direction: column
+        display: none
+
+    .the_list
+        display: flex
+        flex-direction: row
+        ul
+            padding: 1rem .3rem .3rem
+            display: flex
+            flex-direction: column
+            gap: .2rem
+
+    .lis_header
+        font-size: .7rem
+        text-transform: uppercase
+        color: rgba(0,0,0,.6)
+        padding: 0 1.5rem 0 .5rem
+        width: fit-content
+
+    .list_heading
+        padding: .5rem .8rem
+        cursor: pointer
+        font-size: .9rem
+        border-radius: 7px
+
+        &:hover
+            background: #F5F5F5
+
+    .nav_list_item
+        transition: .3s
+
+    .nav_list_item:hover
+        .arrow
+            rotate: 180deg
+        .list_section
+            display: flex
+
+    .plain_list
+        padding: .3rem
+
+    .list_item
+        text-transform: capitalize
+        padding: .5rem 2rem .5rem .5rem
+        border-radius: 5px
+        font-size: .9rem
+        cursor: pointer
+        line-height: 1
+
+        &:hover
+            background: #F5F5F5
+
+    .side_menu
+        border-left: 1px solid #E5E5E5
+
+    .list_text
+        display: flex
+        flex-direction: column
+        gap: .4rem
+
+    .right_nav
+        .each_nav
+            display: flex
+            flex-direction: row
+            gap: .7rem
+
+        .nav_list_item
+            font-size: .9rem
+            text-transform: capitalize
+            padding: .5rem .5rem .5rem
+            border-radius: 5px
+            font-size: .9rem
+            cursor: pointer
+            line-height: 1
+
+            &:hover
+                background: #F5F5F5
+
+        .border_div
+            width: 1px
+            background: #E5E5E5
+            height: 1.5rem
+
+        .get_notion
+            background: black
+            color: white
+            font-weight: 600
+            font-size: .8rem
+            padding: .5rem .8rem
+            width: fit-content
+
+            &:hover
+                background: #333333
